@@ -1,0 +1,56 @@
+@font-face{
+    font-family: HindMadurai-Medium;
+    src:url(fonts/hind_madurai/HindMadurai-Medium.ttf);
+}
+@font-face{
+    font-family: HindMadurai-Regular;
+    src: url(fonts/hind_madurai/HindMadurai-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#contenedor{
+    width: 100%;
+    height: auto;
+}
+#close{
+    position: absolute;
+    left: 1200px;
+    padding: 30px;
+}
+#grupo{
+    ;
+}
+a{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#titulo{
+    text-align: center;
+    color: grey;
+    font-family: HindMadurai-Regular;
+}
+.hijo{
+    margin: 5px;
+}
+#categories{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+#footer{
+    width: 1366px;
+    height: 100px;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    margin-top: 100px;
+}
+#texto h4{
+    font-family: ZillaSlab-Regular;
+    font-weight: lighter;
+    color: rgb(134, 134, 134);
+    padding: 30px;
+}
