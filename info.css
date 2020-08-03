@@ -6,53 +6,113 @@
     font-family: HindMadurai-Regular;
     src: url(fonts/hind_madurai/HindMadurai-Regular.ttf);
 }
+@font-face{
+    font-family: ZillaSlab-Regular;
+    src: url(fonts/Zilla_Slab/ZillaSlab-Regular.ttf);
+}
 *{
     margin: 0px;
     padding: 0px;
 }
 #contenedor{
-    width: 100%;
+    width: 1360px;
     height: 620px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(245, 245, 245);
 }
-nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+#iconbox{
+    position: relative;
+    height: 60px;
 }
-#home{
-    font-family: HindMadurai-Regular;
-    font-weight: bold;
-    font-size: 14px;
-    width: 50px;
-    height: 50px;
-    background-color: rgb(177, 177, 177);
-    color: rgb(219, 219, 219);
-    text-align: center;
-    margin: 20px;
+#icon{
+  position: absolute;
+  right: 49px;
+  top: 36px;
 }
 #about{
     font-family: HindMadurai-Regular;
     font-weight: bold;
     color: rgb(71, 71, 71);
-    text-align: left;
-    
+    text-align: left; 
 }
 #contact{
     font-family: HindMadurai-Medium;
     font-weight: normal;
     color: rgb(139, 139, 139);
-    margin-left: 100px;
+    margin-left: 150px;
 }
-#info{
+.redsocial{
+  float: left;
+  margin-right: 18px;
+  margin-top: -10px;
+}
+#infobox{
     display: flex;
     flex-direction: row;
     padding: 50px;
     margin-left: 100px;
 }
-#close{
-    padding: 30px;
+#boxmessage{
+  margin-top: -20px;
+  margin-left: 60px;
 }
-a img{
-    
+form{
+  margin-left: 50px;
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+form li{
+  margin-top: 10px;
+}
+
+label{
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+  color: #999;
+  font-family: HindMadurai-Regular;
+}
+input, textarea {
+  font: 16px HindMadurai-Regular;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+input:focus, 
+textarea:focus {
+  border-color: rgb(117, 117, 117);
+}
+textarea{
+  vertical-align: top;
+  height: 80px;
+}
+.button{
+  padding-left: 100px;
+  list-style: none;
+  font-family: HindMadurai-Regular;
+}
+button{
+  margin-left: 310px;
+  padding: 5px;
+}
+#dan{
+  margin-top: 50px;
+}
+#footer{
+  width: 1360px;
+  height: 100px;
+  margin-top: -5px;
+  background-color: rgb(24, 24, 24);
+  text-align: center;
+}
+#texto h4{
+  font-family: ZillaSlab-Regular;
+  font-weight: lighter;
+  color: rgb(116, 116, 116);
+  padding-top: 30px;
 }

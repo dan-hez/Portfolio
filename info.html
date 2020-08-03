@@ -10,31 +10,63 @@
     </head>
     <body>
         <div id="contenedor">
-            <div id="nav">
-                <nav>
-                <div id="home">Home</div>
-                <div id="close"><img src="img/close.png" alt="close icon"></div>
-                </nav>
+            
+            <div id="iconbox">
+                <a href="portafolio.html"><img id="icon" src="img/close.png" alt="close icon"></a>
             </div>
-            <div id="info">
-            <div id="about"> <p>Hi everyone! <br> <br>
-                I am a venezuelan <br>
-                illustrator behind the drawings <br>
-                on this portafolio 
-                <br>
+                
+            <div id="infobox">
+                <div id="about"> <p>Hi everyone! <br> <br>
+                I am Dan, a venezuelan <br>
+                illustrator and I'm behind the <br> 
+                drawings on this portafolio <br>
                 <br>
                 Thanks for visiting my work :)</p>
-            </div>
-            <div id="contact">
-                <p>Contact: <br> danylexi@gmail.com
-                <br><br>
-                Follow me: <br> 
-                <img src="" alt="logo instagram">
-                <img src="" alt="logo behance"></p>
-            </div>
+                </div>
+
+                <div id="contact">
+                <p>Contact me: <br> danylexi@gmail.com
+                <br><br><br>
+                Follow me: <br> <br>
+                    <div id="logos">
+                    <div class="redsocial"><a href="https://www.instagram.com/hastaluegato/" target="_blank"><img src="img/instagram.png" alt="logo instagram" width="20px"></a></div>
+                    <div class="redsocial"><a href="https://www.behance.net/dan-h" target="_blank"><img src="img/behance.png" alt="logo behance" width="20px"></p></a></div>
+                    </div>
+                </div>
+
+                <div id="boxmessage">
+                    <form action="/form-page" method="post">
+                    <ul>
+                    <li>
+                       <label for="name">Name</label>
+                       <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </li>
+                    <li>
+                       <label for="msg">Message</label>
+                       <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                    </ul>
+                    </form>
+                        <li class="button">
+                        <button type="submit">Send</button>
+                    </li>
+                </div>
+
             </div>
             <div id="dan">
-                <a href="https://via.placeholder.com"><img src="https://via.placeholder.com/1366x368" alt="foto de autora"></a> 
+                <img src="img/dany.jpg" alt="author image" width="1360px">
             </div>
+        
+            <footer id="footer">
+                <div id="texto">
+                <h4>Behance Instagram 
+                <br>
+                © Danylexi Hernandez | ImprintData Protection</h4>
+                </div>
+            </footer>
         </div>
     </body>

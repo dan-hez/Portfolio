@@ -7,42 +7,75 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Danylexi Hernandez</title>
         <link type="text/css" rel="stylesheet" href="portafolio.css">
+        <link rel="icon" href="img/favicon.png" type="image/png" sizes="16x16">
     </head>
     <body>
     <div id="contenedor">
-        <div id="inicio">
-                <nav id="nav">
-                <div id="home">Home</div>
-                <div id="menu">
-                <ul>
-                <li>Info</li>
-                <li>Shop</li>
-                </ul>
-                </div>
-                </nav>
+        <div id="background">
+            <div id="home"><a href="portafolio.html"><img id="logo" src="img/logo.png" alt="logo" width="27px" height="40px"></a></div>
+            
             <header>
+                <input type="checkbox" id="menu-bar">
+                <label class="icon-menu" for="menu-bar"><img src="menu.png" alt="menu icon"></label>
+                    <nav class="menu">
+                    <a href="https://www.redbubble.com/es/people/Danylexi/shop?asc=u" target="_blank">Shop</a>
+                    <a href="info.html">Info</a>
+                    </nav>         
+            </header>
+
+            <header id="boxname">
             <h2>Danylexi Hernandez</h2>
             <br>
-            <h4>English Español</h4>
-            <h4></h4>
-            </header>
-            <img id="arrow" src="img/arrow.png" alt="flecha" width="30px">
-        </div>
-        <div id="intro">Just <br> some <br> draw <br> ings</div>
-        <div id="secciones">
-            <div class="hijo"><h5>INK</h5></div>
-            <div class="hijo"><h5>WATER <br> COLOR</h5></div>
-            <div class="hijo"><h5>SEKTCH <br> BOOK</h5></div>
-            <div class="hijo"><h5>DIGITAL</h5></div>
-            <div class="hijo"><h5>BACK <br> GROUND</h5></div>
-            <div class="hijo"><h5>CHARACTER</h5></div>
-        </div>
-        <footer id="footer">
-            <div id="texto">
-            <h4>Behance Instagram 
-            <br>
-            © Danylexi Hernandez | ImprintData Protection</h4>
+            <div id="languages">
+                <h4>
+                <a href="">English</a>
+                <a href="">Español</a></h4>
             </div>
+            <img class="arrow" src="img/arrow.png" alt="arrow" width="30px">
+            </header>
+        </div>
+
+        <div id="intro">Just <br> some <br> draw <br> ings</div>
+        
+        <div class="flex-container">
+            <div class="box">
+                <a href="gallery.html">
+                <img class="img" src="img/ink/ink1.jpg" alt="ink drawing" width="300px" height="300px">   
+                <div class="album"><p class="technique">INK</p></div>    
+                </a>
+            </div>
+
+            <div class="box">
+                <img class="img" src="img/char/char.jpg" alt="character drawing" width="300px" height="300px">
+                <div class="album"><p class="technique">CHARACTER</p></div>    
+            </div>
+
+            <div class="box">
+                <img class="img" src="img/sketch/sketch.jpg" alt="sketch" width="300px" height="300px">        
+                <div class="album"><p class="technique">SKETCHBOOK</p></div>
+            </div>
+
+            <div class="box">
+                <img class="img" src="img/ilu/ilu.jpg" alt="ilustration" width="300px" height="300px">            
+                <div class="album"><p class="technique">ILLUSTRATION</p></div>                
+            </div>
+
+            <div class="box">
+                <img class="img" src="img/back/dib2 - copia.jpg" alt="background drawing" width="300px" height="300px">            
+                <div class="album"><p class="technique">BACKGROUND</p></div>
+            </div>
+
+            <div class="box">
+                <img class="img" src="img/aqua/back - copia.jpg" alt="watercolor paint" width="300px" height="300px">            
+                <div class="album"><p class="technique">WATERCOLOR</p></div>            </div>
+            </div>
+
+        <footer id="footer">
+            <div id="logos">
+            <div class="redsocial"><a href="https://www.instagram.com/hastaluegato/" target="_blank"><img src="img/instagram.png" alt="logo instagram" width="20px"></a></div>
+            <div class="redsocial"><a href="https://www.behance.net/dan-h" target="_blank"><img src="img/behance.png" alt="logo behance" width="20px"></a></div>
+            </div>
+            <h4 id="texto">© Danylexi Hernandez | ImprintData Protection</h4>                
         </footer>
     </div>
     </body>
